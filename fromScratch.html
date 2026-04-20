@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idaho Fishing</title>
+    <link rel="stylesheet" href="css/Mystyles.css">
+</head>
+
+<body>
+    <div class="nav" id="top">
+        <a href="index.html">Back to Resume</a> | 
+        <a href="fishingGame.html">Play Fishing Game</a>
+    </div>
+
+    <div class="header">
+        <h1>Fishing in Idaho</h1>
+        <p>One of my favorite hobbies is fishing the rivers and lakes of Idaho.</p>
+        <a href="#favorites">Jump to Personal Favorites</a>
+    </div>
+
+    <div class="image-box">
+        <img src="assets/img/Idahofish3.jpg" alt="Idaho Fishing">
+    </div>
+
+    <div class="content">
+        <h2>Rivers I've Fished</h2>
+        <ol>
+            <li>Snake River<ul><li>Rating: 9/10</li><li>Always recommend to friends</li></ul></li>
+            <li>Middle Fork<ul><li>Rating: 8/10</li><li>Would go again</li></ul></li>
+            <li>Payette River<ul><li>Rating: 7/10</li><li>Good fishing, but crowded</li></ul></li>
+            <li>Salmon River<ul><li>Rating: 10/10</li><li>Best experience, would 100% go again</li></ul></li>
+        </ol>
+    </div>
+
+    <div class="content" id="favorites">
+        <h2>Personal Favorites</h2>
+        <ul>
+            <li>Bull Trout</li>
+            <li>Rainbow Trout</li>
+            <li>Blue Gill</li>
+            <li>Bullhead Catfish</li>
+            <li>Largemouth Bass</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2>How to Fish Idaho Rivers</h2>
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/vKQAlH8TYRY?rel=0"
+            title="Fishing in Idaho Video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="content tableau-container">
+        <h2>Fishing Data Visualization</h2>
+        <div class="tableauPlaceholder" id="viz1776119019332" style="position: relative">
+            <object class="tableauViz" style="display:none;">
+                <param name="host_url" value="https://public.tableau.com/" />
+                <param name="embed_code_version" value="3" />
+                <param name="name" value="FishandGameLicenseSaleAnalysis/Dashboard" />
+                <param name="tabs" value="no" />
+                <param name="toolbar" value="yes" />
+            </object>
+        </div>
+        <script type="text/javascript">
+            var divElement = document.getElementById('viz1776119019332');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width = '100%';
+            vizElement.style.height = '1000px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+
+    <div class="footer-nav">
+        <a href="#top" class="back-to-top">↑ Back to Top</a>
+    </div>
+</body>
+</html>

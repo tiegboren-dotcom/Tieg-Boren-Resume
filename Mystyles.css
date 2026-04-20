@@ -1,0 +1,105 @@
+/* Enable smooth scrolling for all anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #cfcfcf;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #003366;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navigation */
+.nav {
+    background-color: #555;
+    padding: 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Header */
+.header {
+    margin: 20px auto;
+}
+
+/* Image box (white border effect) */
+.image-box {
+    background-color: white;
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 1050px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+}
+
+.image-box img {
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Main content boxes */
+.content {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Lists */
+ol {
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #222;
+}
+
+/* Ensure the video is also responsive */
+iframe {
+    max-width: 100%;
+}
+
+/* Footer Navigation Styles */
+.footer-nav {
+    margin: 40px 0;
+    padding-bottom: 40px;
+}
+
+.back-to-top {
+    text-decoration: none;
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #333;
+}
